@@ -7,4 +7,7 @@ class SayHello{
 	return "HelloWorld , Composer !!";
   }
 
+  public static function name($name){
+	return "HelloWorld , ".$name ;
+  }
 }
