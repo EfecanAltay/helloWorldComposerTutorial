@@ -2,8 +2,17 @@
 
 require_once __DIR__.'/../vendor/autoload.php';
 
-
+use PHPUnit\Framework\TestCase;
 use HelloWorld\SayHello;
 
-echo SayHello::world();
+final class Test extends TestCase
+{
+	protected $sayyer;
+    
+    /** @test */
+    public function hello()
+    {
+        SayHello::world();
+    }
+}
 
