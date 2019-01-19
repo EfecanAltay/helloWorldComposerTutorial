@@ -8,11 +8,14 @@ use HelloWorld\SayHello;
 final class Test extends TestCase
 {
 	protected $sayyer;
-    
+	
     /** @test */
-    public function hello()
+    public function TestHelloWorld()
     {
-        SayHello::world();
+    	$this->assertEquals(
+            'HelloWorld , Composer !!',
+            SayHello::world()
+        );
     }
 }
 
