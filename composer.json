@@ -1,10 +1,15 @@
 {
     "name": "efecanaltay/hello-world",
-    "description": "tutorial",
+    "type": "library",
+    "keywords" : ["tutorial","composer","helloworld"],
+    "description": "tutorial for composer",
+    "license": "MIT",
     "authors": [
         {
-            "name": "efecan",
+            "name": "Efecan Altay",
             "email": "efecan95.gs@gmail.com"
+	    "homepage" : ""
+	    "role" : "Developer"
         }
     ],
     "require": {
@@ -12,7 +17,7 @@
     },
     "autoload":{
     	"psr-0": {
-		"HelloWorld" : "src/"
+		"HelloWorld" : "src"
 	}
     }
 }
