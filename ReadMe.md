@@ -7,8 +7,6 @@
 <a href="https://travis-ci.com/EfecanAltay/helloWorldComposerTutorial"><img src="https://poser.pugx.org/efecanaltay/hello-world/license.svg" alt="License"></a>
 </p>
 
-[![Total Downloads]()](https://packagist.org/packages/efecanaltay/hello-world)
-
 ## About HelloWorld
 
 Cangoruu is commerical application, you can do very easy shopping application
